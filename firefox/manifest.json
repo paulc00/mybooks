@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "My Books!",
+  "version": "1.1",
+  "description": "A simple bookmark sync",
+  "homepage_url": "https://github.com/",
+  "icons": {
+    "48": "icons/mybooks-blue2.svg"
+  },
+
+  "permissions": [
+    "bookmarks",
+    "storage",
+    "alarms"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/mybooks-grey2.svg",
+    "default_title": "My Books"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+}
